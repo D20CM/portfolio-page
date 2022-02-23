@@ -1,0 +1,17 @@
+.homepage {
+  background: url(../../images/retro.png);
+  background-size: 1600px;
+  min-height: 91vh;
+  color: #edebd7;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.homepage h1 {
+  font-size: 60px;
+}
+
+.textContainer {
+  padding: 4em;
+  /* background-color: rgba(66, 62, 55, 0.3); */
+}

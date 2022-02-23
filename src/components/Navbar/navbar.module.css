@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #423e37;
+  color: #e3b23c;
+  padding: 1em;
+  font-size: 1.2em;
+}
+
+.navlist {
+  list-style-type: none;
+  display: flex;
+  margin: 0 2em;
+}
+
+.navlist > li {
+  margin: 0 2em;
+}
+
+.navlist a {
+  color: #e3b23c;
+  text-decoration: none;
+}
