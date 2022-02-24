@@ -1,5 +1,6 @@
 import React from "react";
 import css from "./homepage.module.css";
+import FeaturedProject from "../FeaturedProject/FeaturedProject";
 
 export default function Homepage() {
   return (
@@ -15,6 +16,9 @@ export default function Homepage() {
           technology, and I'm excited to see where this journey takes me.
         </p>
       </div>
+      <h2>Projects</h2>
+      <FeaturedProject />
+      <FeaturedProject />
     </div>
   );
 }
