@@ -1,6 +1,6 @@
 .homepage {
   background: url(../../images/retro.png);
-  background-size: 1600px;
+  background-size: 100vw;
   min-height: 91vh;
   color: #edebd7;
   display: grid;
