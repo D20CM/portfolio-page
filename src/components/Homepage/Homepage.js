@@ -1,7 +1,7 @@
 import React from "react";
 import css from "./homepage.module.css";
 import FeaturedProject from "../FeaturedProject/FeaturedProject";
-import ProjectsArea from "../ProjectsArea/ProjectsArea";
+// import ProjectsArea from "../ProjectsArea/ProjectsArea";
 
 export default function Homepage() {
   return (
