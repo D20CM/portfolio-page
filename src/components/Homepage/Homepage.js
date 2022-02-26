@@ -1,7 +1,7 @@
 import React from "react";
 import css from "./homepage.module.css";
 import FeaturedProject from "../FeaturedProject/FeaturedProject";
-// import ProjectsArea from "../ProjectsArea/ProjectsArea";
+import ProjectsArea from "../ProjectsArea/ProjectsArea";
 
 export default function Homepage() {
   return (
@@ -31,7 +31,7 @@ export default function Homepage() {
       <h2>Featured Projects</h2>
       <FeaturedProject />
       <FeaturedProject />
-      {/* <ProjectsArea /> */}
+      <ProjectsArea />
     </div>
   );
 }

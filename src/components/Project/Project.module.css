@@ -1,6 +1,5 @@
 .projectCard {
   max-width: 100%;
-  border: 3px solid green;
   margin: 2em;
   padding: 1em;
   background-color: var(--portfolio-light-gray);
@@ -39,4 +38,20 @@
   border-radius: 20px;
   padding: 0.5em 1em;
   margin: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+  .projectCard {
+    margin: 2em;
+    padding: 1em;
+  }
+
+  .cardTop {
+    grid-template-columns: 1fr;
+    grid-gap: 0.5em;
+  }
+
+  .projectText {
+    padding: 1em;
+  }
 }

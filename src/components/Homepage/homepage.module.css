@@ -44,7 +44,7 @@
 
 @media only screen and (max-width: 600px) {
   body {
-    font-size: 12px;
+    font-size: 16px;
   }
   .header {
     background-size: cover;
@@ -57,17 +57,17 @@
   }
 
   .textContainer {
-    padding: 2.2em;
-    padding-right: 1em;
+    padding: 1.8em;
+    padding-right: 0.7em;
   }
 
   .homepage h1 {
-    font-size: 2.2em;
+    font-size: 1.9em;
     margin: 0.5em 0;
   }
 
   .subtitle {
-    font-size: 1.8em;
+    font-size: 1.2em;
     margin-bottom: 4em;
   }
 
@@ -76,16 +76,17 @@
   }
   .pitchPortraitContainer {
     display: block;
-    background-image: linear-gradient(
+    /* background-image: linear-gradient(
       to right top,
       #4a97b4,
       #4485a0,
       #3e738b,
       #386278,
       #315264
-    );
+    ); */
+    background-color: var(--portfolio-cream);
     margin: 0 0 2em 0;
-    padding: 1em 2em;
-    color: var(--portfolio-cream);
+    padding: 1em 1em;
+    color: var(--portfolio-dark-brown);
   }
 }

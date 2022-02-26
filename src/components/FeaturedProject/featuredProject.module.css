@@ -2,7 +2,7 @@
   /* border: 3px solid red; */
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 6em;
+  padding: 1em 6em;
   color: var(--portfolio-cream);
 }
 
@@ -68,5 +68,10 @@
 
   .projectRight {
     padding: 0 1em;
+  }
+  .techIcon {
+    width: 2em;
+    height: 2em;
+    margin: 0.7em;
   }
 }
