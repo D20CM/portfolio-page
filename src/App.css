@@ -15,12 +15,7 @@ background: #423e37;
 
 .App {
   text-align: center;
-  background-color: #423e37;
-  color: #e3b23c;
+  background-color: var(--portfolio-dark-brown);
+  color: var(--portfolio-yellow);
   min-height: 100vh;
-}
-
-.App h2 {
-  font-size: 48px;
-  color: #edebd7;
 }

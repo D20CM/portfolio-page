@@ -1,3 +1,15 @@
+:root {
+  --portfolio-dark-brown: #423e37;
+
+  --portfolio-yellow: #e3b23c;
+
+  --portfolio-cream: #edebd7;
+
+  --portfolio-light-gray: #a39594;
+
+  --portfolio-dark-gray: #6e675f;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

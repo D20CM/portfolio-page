@@ -1,0 +1,52 @@
+.project {
+  /* border: 3px solid red; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 6em;
+  color: #edebd7;
+}
+
+.projectLeft {
+  text-align: center;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+}
+.projectRight {
+  padding: 2em;
+}
+
+.project h2 {
+  color: #e3b23c;
+}
+
+.projectImage {
+  width: 80%;
+  margin: auto;
+}
+
+.techIconsArea {
+  display: flex;
+  justify-content: center;
+}
+
+.techIcon {
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background-color: #e3b23c;
+  margin: 1em;
+}
+
+.projectLinks {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.projectLink {
+  background-color: #e3b23c;
+  color: #423e37;
+  border-radius: 20px;
+  padding: 0.5em 1em;
+  margin: 1em;
+}

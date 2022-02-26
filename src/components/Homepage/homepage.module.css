@@ -1,17 +1,30 @@
-.homepage {
-  background: url(../../images/retro.png);
+.header {
+  background-color: var(--portfolio-dark-brown);
+  background: url(../../images/retrofade.webp);
   background-size: 100vw;
-  min-height: 91vh;
-  color: #edebd7;
+  height: 110vh;
+  background-repeat: none;
+
+  color: var(--portfolio-cream);
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 2em;
 }
 
 .homepage h1 {
-  font-size: 60px;
+  font-size: 4rem;
+  margin-bottom: 0;
+}
+
+.homepage h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  color: var(--portfolio-cream);
+  margin-top: 0;
 }
 
 .textContainer {
   padding: 4em;
+  max-height: 100%;
   /* background-color: rgba(66, 62, 55, 0.3); */
 }

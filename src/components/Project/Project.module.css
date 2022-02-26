@@ -1,0 +1,42 @@
+.projectCard {
+  max-width: 100%;
+  border: 3px solid green;
+  margin: 2em;
+  padding: 1em;
+  background-color: var(--portfolio-light-gray);
+}
+
+.cardTop {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  justify-content: center;
+  /* align-items: center; */
+}
+.cardBottom {
+  display: flex;
+}
+
+.projectText {
+  background-color: var(--portfolio-cream);
+  color: var(--portfolio-dark-brown);
+  padding: 2em;
+}
+
+.projectImage {
+  max-width: 100%;
+  border: 3px solid var(--portfolio-cream);
+}
+
+.projectLinks {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.projectLink {
+  background-color: #e3b23c;
+  color: #423e37;
+  border-radius: 20px;
+  padding: 0.5em 1em;
+  margin: 1em;
+}
