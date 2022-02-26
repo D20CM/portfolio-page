@@ -1,18 +1,3 @@
-/* Dark brown
-background: #423e37;
-
-/* Yellow */
-/* background: #e3b23c; */
-
-/* cream */
-/* background: #edebd7; */
-
-/* light gray */
-/* background: #A39594; */
-
-/* dark gray */
-/* background: #6E675F; */
-
 .App {
   text-align: center;
   background-color: var(--portfolio-dark-brown);

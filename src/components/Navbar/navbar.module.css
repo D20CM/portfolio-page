@@ -1,8 +1,8 @@
 .navbar {
   display: flex;
   justify-content: flex-end;
-  background-color: #423e37;
-  color: #e3b23c;
+  background-color: var(--portfolio-dark-brown);
+  color: var(--portfolio-yellow);
   padding: 1em;
   font-size: 1.3em;
   font-weight: 600;
@@ -19,6 +19,12 @@
 }
 
 .navlist a {
-  color: #e3b23c;
+  color: var(--portfolio-yellow);
   text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    display: none;
+  }
 }

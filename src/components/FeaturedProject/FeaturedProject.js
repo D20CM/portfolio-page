@@ -1,6 +1,6 @@
 import React from "react";
 import css from "./featuredProject.module.css";
-import image from "../../images/retro.png";
+import image from "../../images/Screenshot.png";
 
 export default function FeaturedProject() {
   return (

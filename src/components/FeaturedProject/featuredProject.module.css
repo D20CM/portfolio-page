@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 6em;
-  color: #edebd7;
+  color: var(--portfolio-cream);
 }
 
 .projectLeft {
@@ -11,13 +11,17 @@
   padding: 2em;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .projectRight {
   padding: 2em;
 }
 
+.projectTitle {
+  color: var(--portfolio-yellow);
+}
 .project h2 {
-  color: #e3b23c;
+  color: var(--portfolio-yellow);
 }
 
 .projectImage {
@@ -34,7 +38,7 @@
   width: 3em;
   height: 3em;
   border-radius: 50%;
-  background-color: #e3b23c;
+  background-color: var(--portfolio-yellow);
   margin: 1em;
 }
 
@@ -44,9 +48,25 @@
 }
 
 .projectLink {
-  background-color: #e3b23c;
-  color: #423e37;
+  background-color: var(--portfolio-yellow);
+  color: var(--portfolio-dark-brown);
   border-radius: 20px;
   padding: 0.5em 1em;
   margin: 1em;
+}
+
+@media only screen and (max-width: 600px) {
+  .project {
+    /* border: 3px solid red; */
+    display: flex;
+    /* grid-template-columns: 1fr; */
+    flex-direction: column-reverse;
+    padding: 0 1em;
+    margin-top: 0;
+    color: var(--portfolio-cream);
+  }
+
+  .projectRight {
+    padding: 0 1em;
+  }
 }
