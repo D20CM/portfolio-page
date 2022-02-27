@@ -55,6 +55,14 @@
   margin: 1em;
 }
 
+.projectSeperator {
+  width: 80%;
+  margin: auto;
+  height: 1px;
+  background-color: var(--portfolio-dark-gray);
+  border: none;
+}
+
 @media only screen and (max-width: 600px) {
   .project {
     /* border: 3px solid red; */

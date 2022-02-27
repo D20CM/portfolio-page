@@ -76,17 +76,17 @@
   }
   .pitchPortraitContainer {
     display: block;
-    /* background-image: linear-gradient(
+    background-image: linear-gradient(
       to right top,
       #4a97b4,
       #4485a0,
       #3e738b,
       #386278,
       #315264
-    ); */
-    background-color: var(--portfolio-cream);
+    );
+    background-color: var(--portfolio-dark-brown);
     margin: 0 0 2em 0;
     padding: 1em 1em;
-    color: var(--portfolio-dark-brown);
+    color: var(--portfolio-cream);
   }
 }

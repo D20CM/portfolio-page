@@ -3,6 +3,7 @@
   margin: 2em;
   padding: 1em;
   background-color: var(--portfolio-light-gray);
+  border-radius: 10px;
 }
 
 .cardTop {
@@ -20,11 +21,21 @@
   background-color: var(--portfolio-cream);
   color: var(--portfolio-dark-brown);
   padding: 2em;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.projectText > h3 {
+  text-align: center;
 }
 
 .projectImage {
   max-width: 100%;
   border: 3px solid var(--portfolio-cream);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .projectLinks {
