@@ -44,8 +44,8 @@
 }
 
 .projectLink {
-  background-color: #e3b23c;
-  color: #423e37;
+  background-color: var(--portfolio-yellow);
+  color: var(--portfolio-dark-brown);
   border-radius: 20px;
   padding: 0.5em 1em;
   margin: 1em;

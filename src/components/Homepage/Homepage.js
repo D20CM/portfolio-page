@@ -15,7 +15,9 @@ export default function Homepage() {
             Hi! I'm a full-stack developer with a background in the travel,
             entertainment, and education sectors. I've swapped the life of a
             travelling musician for a different kind of journey into the world
-            of technology, and I'm excited to see where this journey takes me.
+            of technology, and I'm excited to see where this journey takes me!
+            Please take a look around at some of the things I've been working
+            on...
           </p>
         </div>
       </div>
@@ -24,7 +26,8 @@ export default function Homepage() {
           Hi! I'm a full-stack developer with a background in the travel,
           entertainment, and education sectors. I've swapped the life of a
           travelling musician for a different kind of journey into the world of
-          technology, and I'm excited to see where this journey takes me.
+          technology, and I'm excited to see where this journey takes me! Please
+          take a look around at some of the things I've been working on...
         </p>
       </div>
 
