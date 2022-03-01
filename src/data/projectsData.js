@@ -35,7 +35,7 @@ const projects = [
     title: "Corporate Website",
     codeLink: "https://github.com/D20CM/corporatewebsite",
     liveLink: "https://d20cm.github.io/corporatewebsite/index.html",
-    screenshot: "../images/corporate-site.png",
+    screenshot: "./images/corporate-site.png",
     description:
       "A mock website I built to consolidate some of the HTML and CSS concepts I'd been learning.  The site is fully responsive.",
   },
@@ -43,7 +43,7 @@ const projects = [
     title: "Heatmap",
     codeLink: "https://github.com/D20CM/FCC-Heatmap",
     liveLink: "https://d20cm.github.io/FCC-Heatmap/",
-    screenshot: "../images/heatmap-screenshot.png",
+    screenshot: "./images/heatmap-screenshot.png",
     description:
       "A heatmap chart made with D3.js, visualising global monthly average land surface temperatures between 1753 and 2015.",
   },

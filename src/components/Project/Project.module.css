@@ -5,6 +5,8 @@
   background-color: var(--portfolio-dark-gray);
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.7) 0px 3px 8px;
+  display: grid;
+  grid-template-rows: 4fr 1fr;
 }
 
 .cardTop {
@@ -31,13 +33,18 @@
   text-align: center;
 }
 
+.projectImageDiv {
+  display: flex;
+  justify-content: center;
+}
+
 .projectImage {
   max-width: 100%;
   /* border: 3px solid var(--portfolio-cream); */
-  border-radius: 10px;
+  border-radius: 3px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-self: center;
 }
 
 .projectLinks {
@@ -68,22 +75,31 @@
 
 @media only screen and (max-width: 600px) {
   .projectCard {
+    /* border: 1px solid var(--portfolio-yellow); */
     margin: 2em;
     padding: 1em;
   }
 
   .cardTop {
     grid-template-columns: 1fr;
-    grid-gap: 0.5em;
+    grid-gap: 0em;
   }
 
   .projectText {
     padding: 1em;
-    margin-top: 1em;
+    margin-top: 0em;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+  }
+
+  .projectImageDiv .projectImage {
+    margin-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
   }
 
   .projectLink {
     padding: 0.4em 1em;
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
 }
