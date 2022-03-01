@@ -2,6 +2,8 @@ import React from "react";
 import css from "./homepage.module.css";
 import FeaturedProject from "../FeaturedProject/FeaturedProject";
 import ProjectsArea from "../ProjectsArea/ProjectsArea";
+import repAppImage from "../../images/Screenshot.png";
+import formAppImage from "../../images/signup-screenshot.png";
 
 export default function Homepage() {
   return (
@@ -32,8 +34,20 @@ export default function Homepage() {
       </div>
 
       <h2>Featured Projects</h2>
-      <FeaturedProject />
-      <FeaturedProject />
+      <FeaturedProject
+        image={repAppImage}
+        title={"Repertoire Tracker"}
+        description={
+          "A system to track which pieces of a musician's repertoire have been performed over a given period of time.  Created with Express, and utilising a Postgres database, the system is accessed from a vanilla JavaScript front-end which takes in user input and constructs the appropriate fetch requests from that inputted data.  Visual design aims for a high-contrast dark mode aesthetic appropriate for live use on a dark stage. "
+        }
+      />
+      <FeaturedProject
+        image={formAppImage}
+        title={"Feedback form helper"}
+        description={
+          "An app to help fellow bootcamp students keep track of, fill out, and submit their twice-daily bootcamp feedback forms.  The app improves the current workflow of this process whilst keeping the vital Google forms-based data collection tools used by coaching staff.  My primary contributions to the project were in creating the back-end API with Express to query the PostgreSQL database."
+        }
+      />
       <ProjectsArea />
     </div>
   );

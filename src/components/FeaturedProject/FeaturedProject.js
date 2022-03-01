@@ -1,8 +1,13 @@
 import React from "react";
 import css from "./featuredProject.module.css";
-import image from "../../images/Screenshot.png";
+// import image from "../../images/Screenshot.png";
 
-export default function FeaturedProject() {
+export default function FeaturedProject({
+  title,
+  image,
+  description,
+  technologies,
+}) {
   return (
     <>
       <section className={css.project}>
@@ -14,19 +19,8 @@ export default function FeaturedProject() {
           </div>
         </div>
         <div className={css.projectRight}>
-          <h2 className={css.projectTitle}>Project Title</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo co
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo co
-          </p>
+          <h2 className={css.projectTitle}>{title}</h2>
+          <p>{description}</p>
           <div className={css.techIconsArea}>
             <div className={css.techIcon}></div>
             <div className={css.techIcon}></div>

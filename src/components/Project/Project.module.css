@@ -2,8 +2,9 @@
   max-width: 100%;
   margin: 2em;
   padding: 1em;
-  background-color: var(--portfolio-light-gray);
+  background-color: var(--portfolio-dark-gray);
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 3px 8px;
 }
 
 .cardTop {
@@ -23,6 +24,7 @@
   padding: 2em;
   border-radius: 10px;
   text-align: left;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 3px 8px;
 }
 
 .projectText > h3 {
@@ -31,7 +33,7 @@
 
 .projectImage {
   max-width: 100%;
-  border: 3px solid var(--portfolio-cream);
+  /* border: 3px solid var(--portfolio-cream); */
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -40,7 +42,7 @@
 
 .projectLinks {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .projectLink {
@@ -48,7 +50,20 @@
   color: var(--portfolio-dark-brown);
   border-radius: 20px;
   padding: 0.5em 1em;
-  margin: 1em;
+  margin: 2em;
+  transition: ease 0.3s all;
+  border: 2px solid var(--portfolio-yellow);
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 3px 8px;
+}
+
+.projectLink:hover {
+  color: black;
+  font-weight: 400;
+  transition: ease 0.3s all;
+  border: 2px solid black;
+  /* transform: scale(1.06); */
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 1px 3px;
 }
 
 @media only screen and (max-width: 600px) {

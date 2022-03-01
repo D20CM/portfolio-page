@@ -19,6 +19,8 @@
 
 .projectTitle {
   color: var(--portfolio-yellow);
+  font-size: 2em;
+  margin-top: 0;
 }
 .project h2 {
   color: var(--portfolio-yellow);
@@ -27,6 +29,7 @@
 .projectImage {
   width: 80%;
   margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 3px 8px;
 }
 
 .techIconsArea {
@@ -40,6 +43,7 @@
   border-radius: 50%;
   background-color: var(--portfolio-yellow);
   margin: 1em;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px;
 }
 
 .projectLinks {
@@ -52,7 +56,20 @@
   color: var(--portfolio-dark-brown);
   border-radius: 20px;
   padding: 0.5em 1em;
-  margin: 1em;
+  margin: 2em;
+  transition: ease 0.3s all;
+  border: 2px solid var(--portfolio-yellow);
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 3px 8px;
+}
+
+.projectLink:hover {
+  color: black;
+  font-weight: 400;
+  transition: ease 0.3s all;
+  border: 2px solid black;
+  /* transform: scale(1.06); */
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 1px 3px;
 }
 
 .projectSeperator {
