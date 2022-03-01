@@ -33,7 +33,7 @@ export default function Homepage() {
         </p>
       </div>
 
-      <h2>Featured Projects</h2>
+      <h2 className={css.featuredHeader}>Featured Projects</h2>
       <FeaturedProject
         image={repAppImage}
         title={"Repertoire Tracker"}

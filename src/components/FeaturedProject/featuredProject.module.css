@@ -91,6 +91,10 @@
     color: var(--portfolio-cream);
   }
 
+  .projectTitle {
+    margin-top: 1em;
+  }
+
   .projectRight {
     padding: 0 1em;
   }
@@ -98,5 +102,10 @@
     width: 2em;
     height: 2em;
     margin: 0.7em;
+  }
+
+  .projectLink {
+    padding: 0.4em 1em;
+    font-size: 0.9em;
   }
 }
