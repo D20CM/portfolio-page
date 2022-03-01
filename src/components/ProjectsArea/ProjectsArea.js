@@ -1,18 +1,16 @@
 import React from "react";
 import Project from "../Project/Project";
 import css from "./ProjectsArea.module.css";
+import projects from "../../data/projectsData";
 
 export default function ProjectsArea() {
   return (
     <div>
-      <h2>Projects</h2>
+      <h2>Other Projects</h2>
       <div className={css.projectsContainer}>
-        <Project />
-        <Project />
-        <Project />
-        <Project />
-        <Project />
-        <Project />
+        {projects.map((project) => {
+          return <Project project={project} />;
+        })}
       </div>
     </div>
   );
