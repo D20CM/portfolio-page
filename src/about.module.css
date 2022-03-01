@@ -1,0 +1,26 @@
+.aboutPage h1 {
+  margin-top: 0;
+  text-align: center;
+  color: var(--portfolio-cream);
+}
+
+.aboutPage {
+  margin-top: 0;
+  padding: 4em;
+  text-align: left;
+}
+
+.aboutPage p {
+  width: 80%;
+  margin: 1em auto;
+  color: var(--portfolio-cream);
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutPage {
+    padding: 4em 2em;
+  }
+  .aboutPage p {
+    width: 90%;
+  }
+}
