@@ -1,6 +1,5 @@
 import React from "react";
 import css from "./Project.module.css";
-import image from "../../images/dude_128.png";
 
 export default function Project({ project }) {
   const { title, screenshot, codeLink, liveLink, description } = project;
