@@ -50,6 +50,11 @@
   body {
     font-size: 14px;
   }
+
+  .homepage {
+    padding-top: 4em;
+  }
+
   .header {
     background-size: cover;
     background-repeat: none;
