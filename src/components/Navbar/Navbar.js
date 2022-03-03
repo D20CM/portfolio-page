@@ -1,6 +1,7 @@
 import React from "react";
 import css from "./navbar.module.css";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 export default function Navbar() {
   return (
@@ -8,13 +9,19 @@ export default function Navbar() {
       <ul className={css.navlist}>
         <li>
           <li>
-            <Link to="/">Home</Link>
+            <HashLink smooth to="/#homepage-top">
+              Home
+            </HashLink>
           </li>
         </li>
         <li>
           <Link to="/about">About</Link>
         </li>
-        <li>Projects</li>
+        <li>
+          <HashLink smooth to="/#projects">
+            Projects
+          </HashLink>
+        </li>
         <li>Contact</li>
       </ul>
     </nav>

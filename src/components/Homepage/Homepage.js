@@ -7,7 +7,7 @@ import formAppImage from "../../images/signup-screenshot.png";
 
 export default function Homepage() {
   return (
-    <div className={css.homepage}>
+    <div className={css.homepage} id="homepage-top">
       <div className={css.header}>
         <div></div>
         <div className={css.textContainer}>
@@ -33,7 +33,9 @@ export default function Homepage() {
         </p>
       </div>
 
-      <h2 className={css.featuredHeader}>Featured Projects</h2>
+      <h2 className={css.featuredHeader} id="projects">
+        Featured Projects
+      </h2>
       <FeaturedProject
         image={repAppImage}
         title={"Repertoire Tracker"}
