@@ -16,10 +16,10 @@ export default function FeaturedProject({
         <div className={css.projectLeft}>
           <img className={css.projectImage} src={image} alt="something"></img>
           <div className={css.projectLinks}>
-            <a href={liveURL}>
+            <a href={liveURL} target="_blank" rel="noreferrer noopener">
               <button className={css.projectLink}>Live demo</button>
             </a>
-            <a href={repoURL}>
+            <a href={repoURL} target="_blank" rel="noreferrer noopener">
               <button className={css.projectLink}>View code</button>
             </a>
           </div>

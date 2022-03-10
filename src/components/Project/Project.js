@@ -24,10 +24,10 @@ export default function Project({ project }) {
       </div>
 
       <div className={css.projectLinks}>
-        <a href={liveLink}>
+        <a href={liveLink} target="_blank" rel="noreferrer noopener">
           <button className={css.projectLink}>Live demo</button>
         </a>
-        <a href={codeLink}>
+        <a href={codeLink} target="_blank" rel="noreferrer noopener">
           <button className={css.projectLink}>View code</button>
         </a>
       </div>
