@@ -7,6 +7,8 @@ export default function FeaturedProject({
   image,
   description,
   technologies,
+  liveURL,
+  repoURL,
 }) {
   return (
     <>
@@ -14,8 +16,12 @@ export default function FeaturedProject({
         <div className={css.projectLeft}>
           <img className={css.projectImage} src={image} alt="something"></img>
           <div className={css.projectLinks}>
-            <button className={css.projectLink}>Live demo</button>
-            <button className={css.projectLink}>View code</button>
+            <a href={liveURL}>
+              <button className={css.projectLink}>Live demo</button>
+            </a>
+            <a href={repoURL}>
+              <button className={css.projectLink}>View code</button>
+            </a>
           </div>
         </div>
         <div className={css.projectRight}>
