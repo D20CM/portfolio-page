@@ -9,7 +9,6 @@ export default function Homepage() {
   return (
     <div className={css.homepage} id="homepage-top">
       <div className={css.header}>
-        <div></div>
         <div className={css.textContainer}>
           <h1>Scott Brown</h1>
           <h2 className={css.subtitle}>Software Developer</h2>
