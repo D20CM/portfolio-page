@@ -4,6 +4,15 @@
   color: var(--portfolio-cream);
 }
 
+.profileImage {
+  max-height: 30vh;
+  float: left;
+  margin-left: 10vw;
+  margin-right: 2em;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 1px 3px;
+}
+
 .aboutPage {
   margin-top: 0;
   padding: 4em;
@@ -22,5 +31,11 @@
   }
   .aboutPage p {
     width: 90%;
+  }
+
+  .profileImage {
+    max-height: 25vh;
+    margin-left: 5vw;
+    margin-right: 1em;
   }
 }

@@ -1,10 +1,16 @@
 import React from "react";
 import css from "./about.module.css";
+import profileImage from "../src/images/scott-sitting.jpg";
 
 export default function About() {
   return (
     <div className={css.aboutPage}>
       <h1>About me...</h1>
+      <img
+        src={profileImage}
+        alt="scott sitting"
+        className={css.profileImage}
+      />
       <p>
         A former professional musician, I wrote my first lines of code in the
         late eighties on my primary school's BBC Micro. This early enthusiasm
