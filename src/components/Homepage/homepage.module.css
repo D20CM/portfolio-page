@@ -1,16 +1,27 @@
 .header {
   background-color: var(--portfolio-dark-brown);
   background: url(../../images/retrofade.webp);
-  background-size: 100vw;
-  height: 110vh;
-  background-repeat: none;
+  background-size: cover;
+  /* height: 110vh; */
+  /* background-repeat: none;  */
+  /* width: 100vw; */
+  padding-top: 56.25%;
 
   color: var(--portfolio-cream);
-  display: grid;
+  /* display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-bottom: 2em;
+  margin-bottom: 2em; */
 }
 
+.textContainer {
+  position: absolute;
+  max-width: 100%;
+  top: 5%;
+  left: 50%;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+}
 .homepage h1 {
   font-size: 4em;
   margin-bottom: 0;
@@ -68,6 +79,8 @@
   .textContainer {
     padding: 1.8em;
     padding-right: 0.7em;
+    top: 7%;
+    left: 30%;
   }
 
   .homepage h1 {
