@@ -8,6 +8,20 @@
   --portfolio-light-gray: #a39594;
 
   --portfolio-dark-gray: #6e675f;
+
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 1400px) {
+  :root {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  :root {
+    font-size: 14px;
+  }
 }
 
 body {

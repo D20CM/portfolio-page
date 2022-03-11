@@ -56,8 +56,29 @@
 .pitchPortraitContainer {
   display: none;
 }
+@media only screen and (max-width: 1200px) {
+  .textContainer {
+    top: 4%;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .textContainer {
+    top: 2%;
+  }
+  .homepage h1 {
+    font-size: 3.5em;
+  }
 
-@media only screen and (max-width: 600px) {
+  .homepage h2 {
+    /* font-size: 2em; */
+  }
+
+  /* .pitchLandscape {
+    font-size: 1.1em;
+  } */
+}
+
+@media only screen and (max-width: 960px) {
   body {
     font-size: 14px;
   }
