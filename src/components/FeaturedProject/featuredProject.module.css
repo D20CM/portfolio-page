@@ -1,5 +1,4 @@
 .project {
-  /* border: 3px solid red; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 1em 6em;
@@ -48,12 +47,11 @@
 
 .projectLinks {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
-.projectLink {
-  background-color: var(--portfolio-yellow);
-  color: var(--portfolio-dark-brown);
+/* .projectLink {
+  color: var(--portfolio-yellow);
   border-radius: 20px;
   padding: 0.5em 1em;
   margin: 2em;
@@ -67,9 +65,42 @@
   font-weight: 400;
   transition: ease 0.3s all;
   border: 2px solid black;
-  /* transform: scale(1.06); */
+  /* transform: scale(1.06); 
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.7) 0px 1px 3px;
+} 
+*/
+
+.projectLink {
+  padding: 0.5em 1em;
+  margin: 1em 1em 0;
+  font-size: 1.4em;
+  font-weight: 600;
+  color: var(--portfolio-yellow);
+  text-decoration: none;
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+.projectLink:after {
+  display: block;
+  content: "";
+  width: 0px;
+  height: 2px;
+  position: relative;
+  background-color: var(--portfolio-yellow);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  opacity: 0.9;
+}
+
+.projectLink:hover {
+  color: var(--portfolio-yellow);
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  text-shadow: 1px 1px 1px rgba(17, 17, 17, 0.788);
+}
+
+.projectLink:hover:after {
+  width: 100%;
+  box-shadow: 1px 1px 1px rgba(17, 17, 17, 0.788);
 }
 
 .projectSeperator {
@@ -82,9 +113,7 @@
 
 @media only screen and (max-width: 600px) {
   .project {
-    /* border: 3px solid red; */
     display: flex;
-    /* grid-template-columns: 1fr; */
     flex-direction: column-reverse;
     padding: 0 1em;
     margin-top: 0;
@@ -95,17 +124,15 @@
     margin-top: 1em;
   }
 
+  .projectLeft {
+    padding: 0.5em 0;
+  }
   .projectRight {
     padding: 0 1em;
   }
-  .techIcon {
-    width: 2em;
-    height: 2em;
-    margin: 0.7em;
-  }
 
   .projectLink {
-    padding: 0.4em 1em;
-    font-size: 0.9em;
+    padding: 0.5em 1em;
+    font-size: 1.1em;
   }
 }
