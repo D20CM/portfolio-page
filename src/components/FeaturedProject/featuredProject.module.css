@@ -1,5 +1,4 @@
 .project {
-  /* border: 3px solid red; */
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 1em 6em;
@@ -88,8 +87,6 @@
   width: 0px;
   height: 2px;
   position: relative;
-  /* bottom: 0.37em; */
-  /* bottom: 1em; */
   background-color: var(--portfolio-yellow);
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
   opacity: 0.9;
@@ -116,9 +113,7 @@
 
 @media only screen and (max-width: 600px) {
   .project {
-    /* border: 3px solid red; */
     display: flex;
-    /* grid-template-columns: 1fr; */
     flex-direction: column-reverse;
     padding: 0 1em;
     margin-top: 0;
@@ -129,14 +124,12 @@
     margin-top: 1em;
   }
 
+  .projectLeft {
+    padding: 0.5em 0;
+  }
   .projectRight {
     padding: 0 1em;
   }
-  /* .techIcon {
-    width: 2em;
-    height: 2em;
-    margin: 0.7em;
-  } */
 
   .projectLink {
     padding: 0.5em 1em;
