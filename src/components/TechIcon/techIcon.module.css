@@ -1,0 +1,15 @@
+.techIcon {
+  width: 3em;
+  height: 3em;
+}
+
+.techIconWithName {
+  display: block;
+  margin: 0.5em;
+}
+
+.techNameDisplay {
+  margin-top: 0;
+  font-size: 0.8em;
+  color: var(--portfolio-yellow);
+}

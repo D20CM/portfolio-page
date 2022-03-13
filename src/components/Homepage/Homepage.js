@@ -43,6 +43,14 @@ export default function Homepage() {
         }
         liveURL={"https://repertoire-tracker.herokuapp.com/"}
         repoURL={"https://github.com/D20CM/performed-repertoire-tracker"}
+        technologies={[
+          "HTML",
+          "CSS",
+          "Javascript",
+          "Express",
+          "Postgres",
+          "Git",
+        ]}
       />
       <FeaturedProject
         image={formAppImage}
@@ -52,6 +60,17 @@ export default function Homepage() {
         }
         liveURL={"https://pedantic-bell-0aa1ac.netlify.app/"}
         repoURL={"https://github.com/D20CM/project-week-backend"}
+        technologies={[
+          "HTML",
+          "CSS",
+          "Javascript",
+          "Express",
+          "Postgres",
+          "React",
+          "Node",
+          "Git",
+          "Github",
+        ]}
       />
       <ProjectsArea />
     </div>
