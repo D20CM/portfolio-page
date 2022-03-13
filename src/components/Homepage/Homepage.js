@@ -61,12 +61,12 @@ export default function Homepage() {
         liveURL={"https://pedantic-bell-0aa1ac.netlify.app/"}
         repoURL={"https://github.com/D20CM/project-week-backend"}
         technologies={[
+          "React",
+          "Postgres",
+          "Express",
           "HTML",
           "CSS",
           "Javascript",
-          "Express",
-          "Postgres",
-          "React",
           "Node",
           "Git",
           "Github",
