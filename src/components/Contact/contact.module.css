@@ -1,0 +1,25 @@
+.contactForm {
+  border: 3px solid red;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  padding: 2em;
+}
+
+.contactForm button {
+  background-color: var(--portfolio-yellow);
+  width: 10em;
+  margin: 2em auto;
+  border-radius: 10px;
+  padding: 0.5em;
+}
+.thanks {
+  visibility: hidden;
+  border: 3px solid blue;
+  height: 50px;
+}
+
+.visible {
+  visibility: visible;
+}
