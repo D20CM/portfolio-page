@@ -4,6 +4,7 @@ import FeaturedProject from "../FeaturedProject/FeaturedProject";
 import ProjectsArea from "../ProjectsArea/ProjectsArea";
 import repAppImage from "../../images/Screenshot.png";
 import formAppImage from "../../images/signup-screenshot.png";
+import Contact from "../Contact/Contact";
 
 export default function Homepage() {
   return (
@@ -73,6 +74,7 @@ export default function Homepage() {
         ]}
       />
       <ProjectsArea />
+      <Contact />
     </div>
   );
 }
