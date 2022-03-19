@@ -1,7 +1,6 @@
 import React, { useState, useRef } from "react";
 import emailjs from "emailjs-com";
 import { init } from "@emailjs/browser";
-// import emailjs from "@emailjs/browser";
 import css from "./contact.module.css";
 
 const Contact = () => {
@@ -10,7 +9,6 @@ const Contact = () => {
   const [message, setMessage] = useState("");
   const [emailSent, setEmailSent] = useState(false);
   const form = useRef();
-  const userId = init("ivTRwVue-TVwBW4N8");
 
   const submit = (e) => {
     e.preventDefault();
