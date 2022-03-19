@@ -22,7 +22,12 @@ export default function Navbar() {
             Projects
           </HashLink>
         </li>
-        <li>Contact</li>
+        <li>
+          {" "}
+          <HashLink smooth to="/#contact">
+            Contact
+          </HashLink>
+        </li>
       </ul>
     </nav>
   );

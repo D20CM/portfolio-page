@@ -50,45 +50,52 @@ const Contact = () => {
   //   };
 
   return (
-    <form
-      ref={form}
-      onSubmit={submit}
-      id="contact-form"
-      // className={css.contactForm}
-    >
-      <label>Name</label>
-      <input
-        type="text"
-        placeholder="Your Name"
-        name="name"
-        // onChange={(e) => {
-        //   setName(e.target.value);
-        // }}
-      />
-      <label>Email</label>
-      <input
-        type="email"
-        placeholder="Your email address"
-        name="email"
-        // onChange={(e) => {
-        //   setEmail(e.target.value);
-        // }}
-      />
-      <label>Message</label>
+    <section id="contact">
+      <h2>Get In Touch...</h2>
+      <form
+        ref={form}
+        onSubmit={submit}
+        id="contact-form"
+        className={css.contactForm}
+      >
+        <label>Name</label>
+        <input
+          type="text"
+          placeholder="Your Name"
+          name="name"
+          className={css.nameInput}
+          // onChange={(e) => {
+          //   setName(e.target.value);
+          // }}
+        />
+        <label>Email</label>
+        <input
+          type="email"
+          placeholder="Your email address"
+          name="email"
+          className={css.emailInput}
 
-      <textarea
-        placeholder="Your message"
-        name="message"
-        // onChange={(e) => {
-        //   setMessage(e.target.value);
-        // }}
-      ></textarea>
-      <input type="submit" value="Send" />
+          // onChange={(e) => {
+          //   setEmail(e.target.value);
+          // }}
+        />
+        <label>Message</label>
 
-      <div className={emailSent ? css.thanks : css.notSent}>
-        Thanks for getting in touch!
-      </div>
-    </form>
+        <textarea
+          placeholder="Your message"
+          name="message"
+          // onChange={(e) => {
+          //   setMessage(e.target.value);
+          // }}
+          className={css.messageInput}
+        ></textarea>
+        <input type="submit" value="Send" className={css.submit} />
+
+        <div className={emailSent ? css.thanks : css.notSent}>
+          Thanks for getting in touch!
+        </div>
+      </form>
+    </section>
   );
 };
 

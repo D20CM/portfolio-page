@@ -13,6 +13,10 @@
   margin-bottom: 2em; */
 }
 
+.homepage {
+  padding-bottom: 2em;
+}
+
 .textContainer {
   position: absolute;
   max-width: 100%;
