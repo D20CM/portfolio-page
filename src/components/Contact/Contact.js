@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import emailjs from "emailjs-com";
+import { init } from "@emailjs/browser";
+// import emailjs from "@emailjs/browser";
 import css from "./contact.module.css";
 
 const Contact = () => {
@@ -7,31 +9,38 @@ const Contact = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const [emailSent, setEmailSent] = useState(false);
+  const form = useRef();
+  const userId = init("ivTRwVue-TVwBW4N8");
 
-  const submit = () => {
-    if (name && email && message) {
-      const serviceId = process.env.REACT_APP_SERVICE_ID;
-      const templateId = process.env.REACT_APP_TEMPLATE_ID;
-      const userId = process.env.REACT_APP_USER_ID;
-      const templateParams = {
-        name,
-        email,
-        message,
-      };
+  const submit = (e) => {
+    e.preventDefault();
 
-      emailjs
-        .send(serviceId, templateId, templateParams, userId)
-        .then((response) => console.log(response))
-        .then((error) => console.log(error));
+    // if (name && email && message) {
+    const serviceId = process.env.REACT_APP_SERVICE_ID;
+    const templateId = process.env.REACT_APP_TEMPLATE_ID;
+    const userId = process.env.REACT_APP_USER_ID;
 
-      setName("");
-      setEmail("");
-      setMessage("");
-      setEmailSent(true);
-      console.log("email has been sent ", process.env.REACT_APP_SERVICE_ID);
-    } else {
-      alert("Please fill in all fields.");
-    }
+    // const templateParams = {
+    //   name,
+    //   email,
+    //   message,
+    // };
+
+    emailjs
+      .sendForm(serviceId, templateId, form.current, userId)
+      .then((result) => console.log(result))
+      .then((error) => console.log(error));
+
+    setEmailSent(true);
+
+    // setName("");
+    // setEmail("");
+    // setMessage("");
+    // setEmailSent(true);
+    // console.log("email has been sent ", process.env.REACT_APP_SERVICE_ID);
+    // } else {
+    //   alert("Please fill in all fields.");
+    // }
   };
 
   //   const isValidEmail = (email) => {
@@ -41,34 +50,45 @@ const Contact = () => {
   //   };
 
   return (
-    <div id="contact-form" className={css.contactForm}>
+    <form
+      ref={form}
+      onSubmit={submit}
+      id="contact-form"
+      // className={css.contactForm}
+    >
+      <label>Name</label>
       <input
         type="text"
         placeholder="Your Name"
-        value={name}
-        onChange={(e) => {
-          setName(e.target.value);
-        }}
+        name="name"
+        // onChange={(e) => {
+        //   setName(e.target.value);
+        // }}
       />
+      <label>Email</label>
       <input
         type="email"
         placeholder="Your email address"
-        value={email}
-        onChange={(e) => {
-          setEmail(e.target.value);
-        }}
+        name="email"
+        // onChange={(e) => {
+        //   setEmail(e.target.value);
+        // }}
       />
+      <label>Message</label>
+
       <textarea
         placeholder="Your message"
-        value={message}
-        onChange={(e) => {
-          setMessage(e.target.value);
-        }}
+        name="message"
+        // onChange={(e) => {
+        //   setMessage(e.target.value);
+        // }}
       ></textarea>
-      <button onClick={submit}>Send Message</button>
-      {/* <span classsName={emailSent ? css.visible : css.hidden}> */}
-      <div classsName={css.thanks}>Thanks for getting in touch!</div>
-    </div>
+      <input type="submit" value="Send" />
+
+      <div className={emailSent ? css.thanks : css.notSent}>
+        Thanks for getting in touch!
+      </div>
+    </form>
   );
 };
 
