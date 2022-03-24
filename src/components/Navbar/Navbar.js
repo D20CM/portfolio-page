@@ -15,7 +15,7 @@ export default function Navbar() {
           </li>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/about#about">About</Link>
         </li>
         <li>
           <HashLink smooth to="/#projects">

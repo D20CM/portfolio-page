@@ -4,7 +4,7 @@ import profileImage from "../src/images/scott-sitting.jpg";
 
 export default function About() {
   return (
-    <div className={css.aboutPage}>
+    <div className={css.aboutPage} id="about">
       <h1>About me...</h1>
       <section className={css.aboutContainer}>
         <img
