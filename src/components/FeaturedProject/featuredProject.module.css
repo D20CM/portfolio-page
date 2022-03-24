@@ -75,9 +75,10 @@
   padding: 0.5em 1em;
   margin: 1em 1em 0;
   font-size: 1.4em;
-  font-weight: 600;
+  font-weight: 500;
   color: var(--portfolio-yellow);
   text-decoration: none;
+  text-transform: uppercase;
   transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
 
