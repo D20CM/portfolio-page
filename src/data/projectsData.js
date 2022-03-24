@@ -26,7 +26,7 @@ const projects = [
   {
     title: "Pomodoro Timer",
     codeLink: "https://github.com/D20CM/twenty-five-and-five-clock",
-    liveLink: "https://codepen.io/D20CM/pen/oNYzqdo",
+    liveLink: "https://sb-pomodoro-timer.netlify.app/",
     screenshot: "../images/pomodoro-timer.png",
     description:
       "A pomodoro timer built with React class based components, featuring customisable work/break time chunks, reset, start/pause buttons, and an alarm that sounds after the set time period has elapsed.",
