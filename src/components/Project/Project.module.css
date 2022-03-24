@@ -74,7 +74,7 @@
   box-shadow: rgba(0, 0, 0, 0.7) 0px 1px 3px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1200px) {
   .projectCard {
     /* border: 1px solid var(--portfolio-yellow); */
     margin: 2em;

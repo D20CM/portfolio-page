@@ -24,6 +24,9 @@
 .navlist a {
   color: var(--portfolio-yellow);
   text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 400;
   transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
 }
 
@@ -61,5 +64,9 @@
 
   .navlist > li {
     margin: 0 0.5em;
+  }
+
+  .navlist a {
+    font-size: 0.8em;
   }
 }
