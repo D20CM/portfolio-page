@@ -28,11 +28,17 @@
 }
 .homepage h1 {
   font-size: 4em;
+  text-transform: uppercase;
   margin-bottom: 0;
+  font-weight: 700;
+  letter-spacing: 0.05em;
 }
 
 .homepage h2 {
   color: var(--portfolio-cream);
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0.05em;
 }
 
 .featuredHeader {
@@ -40,7 +46,7 @@
 }
 
 .subtitle {
-  font-size: 3em;
+  font-size: 2.4em;
   font-weight: 400;
   color: var(--portfolio-cream);
   margin-top: 0;
@@ -65,7 +71,7 @@
     top: 4%;
   }
 }
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1100px) {
   .textContainer {
     top: 2%;
   }
@@ -82,7 +88,7 @@
   } */
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1100px) {
   body {
     font-size: 14px;
   }
@@ -109,16 +115,20 @@
   }
 
   .homepage h1 {
-    font-size: 2.2em;
-    margin: 0.5em 0;
+    font-size: 3em;
+    margin-top: 2em;
+  }
+
+  .homepage h2 {
+    font-size: 1.6em;
   }
 
   .featuredHeader {
     margin-bottom: 0;
   }
 
-  .subtitle {
-    font-size: 1.2em;
+  .homepage .subtitle {
+    font-size: 1.6em;
     margin-bottom: 4em;
   }
 
@@ -145,5 +155,33 @@
   .pitchPortrait {
     font-size: 0.9em;
     margin: 0.3em 0;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .homepage h1 {
+    font-size: 3em;
+    margin-top: 2em;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .homepage h1 {
+    font-size: 2.4em;
+    margin-top: 2em;
+  }
+  .homepage .subtitle {
+    font-size: 1.6em;
+    margin-bottom: 4em;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .homepage h1 {
+    font-size: 1.8em;
+    margin: 0.5em 0;
+  }
+  .homepage .subtitle {
+    font-size: 1.2em;
+    margin-bottom: 4em;
   }
 }
