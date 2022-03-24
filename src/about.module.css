@@ -3,21 +3,28 @@
   text-align: center;
   color: var(--portfolio-cream);
   text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+.aboutContainer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-width: 100%;
 }
 
 .profileImage {
-  /* max-height: 50vh; */
-  max-width: 30%;
-  float: left;
-  margin-left: 10vw;
-  margin-right: 2em;
+  width: 100%;
+  max-width: 500px;
+  margin: 1em auto;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.7) 0px 1px 3px;
 }
 
 .aboutPage {
   margin-top: 0;
-  padding: 4em;
+
+  padding: 6em 4em 4em;
   text-align: left;
 }
 
@@ -30,6 +37,11 @@
 @media only screen and (max-width: 600px) {
   .aboutPage {
     padding: 4em 2em;
+  }
+
+  .aboutContainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
   }
   .aboutPage p {
     width: 90%;

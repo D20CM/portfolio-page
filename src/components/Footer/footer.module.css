@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   background-color: var(--portfolio-dark-brown);
-  padding: 2em 1em 0;
+  padding: 0 0 2em;
 }
 
 .footer a {
@@ -20,6 +20,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .footer {
+    padding: 0 0 2em;
+  }
   .footer a {
     margin: 0 1em;
     width: 2em;

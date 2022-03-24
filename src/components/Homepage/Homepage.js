@@ -77,7 +77,6 @@ export default function Homepage() {
       <section className={css.contactArea}>
         <Contact />
       </section>
-      <Footer />
     </div>
   );
 }
