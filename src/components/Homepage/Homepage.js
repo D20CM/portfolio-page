@@ -5,6 +5,7 @@ import ProjectsArea from "../ProjectsArea/ProjectsArea";
 import repAppImage from "../../images/Screenshot.png";
 import formAppImage from "../../images/signup-screenshot.png";
 import Contact from "../Contact/Contact";
+import Footer from "../Footer/Footer";
 
 export default function Homepage() {
   return (
@@ -70,11 +71,13 @@ export default function Homepage() {
           "Javascript",
           "Node",
           "Git",
-          "Github",
         ]}
       />
       <ProjectsArea />
-      <Contact />
+      <section className={css.contactArea}>
+        <Contact />
+      </section>
+      <Footer />
     </div>
   );
 }

@@ -12,6 +12,11 @@
   font-size: 16px;
 }
 
+@media only screen and (min-width: 2000px) {
+  :root {
+    font-size: 20px;
+  }
+}
 @media only screen and (max-width: 1400px) {
   :root {
     font-size: 15px;

@@ -10,6 +10,8 @@ import Github from "../../images/tech-icons/Github.ico";
 import Jest from "../../images/tech-icons/Jest.ico";
 import Express from "../../images/tech-icons/Express.ico";
 import Postgres from "../../images/tech-icons/Postgres.ico";
+import LinkedIn from "../../images/tech-icons/LinkedIn.ico";
+import Twitter from "../../images/tech-icons/Twitter.ico";
 import css from "./techIcon.module.css";
 
 export default function TechIcon({ technologie }) {
@@ -77,7 +79,7 @@ export default function TechIcon({ technologie }) {
             return (
               <div className={css.techIconWithName}>
                 <img src={Github} alt="" className={css.techIcon}></img>
-                <p className={css.techNameDisplay}>Github</p>
+                <p className={css.techNameDisplay}></p>
               </div>
             );
 
@@ -102,6 +104,20 @@ export default function TechIcon({ technologie }) {
               <div className={css.techIconWithName}>
                 <img src={Postgres} alt="" className={css.techIcon}></img>
                 <p className={css.techNameDisplay}>PostgreSQL</p>
+              </div>
+            );
+          case "LinkedIn":
+            return (
+              <div className={css.techIconWithName}>
+                <img src={LinkedIn} alt="" className={css.techIcon}></img>
+                <p className={css.techNameDisplay}></p>
+              </div>
+            );
+          case "Twitter":
+            return (
+              <div className={css.techIconWithName}>
+                <img src={Twitter} alt="" className={css.techIcon}></img>
+                <p className={css.techNameDisplay}></p>
               </div>
             );
 

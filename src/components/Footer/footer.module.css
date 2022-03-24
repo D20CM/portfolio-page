@@ -1,0 +1,28 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--portfolio-dark-brown);
+  padding: 2em 1em 0;
+}
+
+.footer a {
+  margin: 0 1em;
+  border-radius: 50%;
+  padding: 0;
+  width: 5em;
+  height: 5em;
+  transition: ease 0.3s all;
+}
+
+.footer a:hover {
+  transform: scale(1.1);
+  transition: ease 0.3s all;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer a {
+    margin: 0 1em;
+    width: 2em;
+    height: 2em;
+  }
+}

@@ -2,10 +2,12 @@
   margin-top: 0;
   text-align: center;
   color: var(--portfolio-cream);
+  text-transform: uppercase;
 }
 
 .profileImage {
-  max-height: 30vh;
+  /* max-height: 50vh; */
+  max-width: 30%;
   float: left;
   margin-left: 10vw;
   margin-right: 2em;
@@ -34,8 +36,11 @@
   }
 
   .profileImage {
-    max-height: 25vh;
+    float: none;
+    width: 90%;
+    max-width: 90%;
+    /* max-height: 25vh; */
     margin-left: 5vw;
-    margin-right: 1em;
+    margin-right: 5vw;
   }
 }
