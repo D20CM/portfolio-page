@@ -22,7 +22,6 @@ export default function Project({ project }) {
           <p>{description}</p>
         </div>
       </div>
-
       <div className={css.projectLinks}>
         <a href={liveLink} target="_blank" rel="noreferrer noopener">
           <button className={css.projectLink}>Live demo</button>

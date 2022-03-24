@@ -56,19 +56,22 @@
 .projectLink {
   background-color: var(--portfolio-yellow);
   color: var(--portfolio-dark-brown);
-  border-radius: 20px;
+  border-radius: 3px;
   padding: 0.5em 1em;
   margin: 2em;
   transition: ease 0.3s all;
   border: 2px solid var(--portfolio-yellow);
   box-shadow: rgba(0, 0, 0, 0.7) 0px 3px 8px;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 .projectLink:hover {
+  background-color: var(--portfolio-cream);
   color: black;
-  font-weight: 400;
+  font-weight: 600;
   transition: ease 0.3s all;
-  border: 2px solid black;
+  border: 2px solid var(--portfolio-yellow);
   /* transform: scale(1.06); */
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.7) 0px 1px 3px;
