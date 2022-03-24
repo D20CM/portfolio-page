@@ -6,7 +6,7 @@ import projects from "../../data/projectsData";
 export default function ProjectsArea() {
   return (
     <div>
-      <h2>Other Projects</h2>
+      <h2 className={css.others}>Other Projects</h2>
       <div className={css.projectsContainer}>
         {projects.map((project) => {
           return <Project project={project} />;

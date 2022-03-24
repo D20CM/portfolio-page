@@ -1,8 +1,13 @@
+.others {
+  margin-top: 2em;
+}
+
 .projectsContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 1800px;
   margin: auto;
+  margin-top: 2em;
 }
 
 @media only screen and (max-width: 600px) {
