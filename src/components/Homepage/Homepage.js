@@ -48,16 +48,17 @@ export default function Homepage() {
           "https://github.com/SchoolOfCode/final-project-repo-404-error-not-found"
         }
         technologies={[
+          "Next",
+          "Firebase",
+          "Postgres",
+          "React",
           "HTML",
           "CSS",
           "Javascript",
-          "Next",
-          "Postgres",
           "Git",
-          "React",
-          "Firebase",
           "Jest",
           "Cypress",
+          "Postman",
         ]}
       />
       <FeaturedProject
@@ -75,6 +76,7 @@ export default function Homepage() {
           "Express",
           "Postgres",
           "Git",
+          "Postman",
         ]}
       />
       <FeaturedProject

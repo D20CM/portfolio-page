@@ -12,6 +12,10 @@ import Express from "../../images/tech-icons/Express.ico";
 import Postgres from "../../images/tech-icons/Postgres.ico";
 import LinkedIn from "../../images/tech-icons/LinkedIn.ico";
 import Twitter from "../../images/tech-icons/Twitter.ico";
+import Firebase from "../../images/tech-icons/Firebase.ico";
+import Cypress from "../../images/tech-icons/Cypress.ico";
+import Postman from "../../images/tech-icons/Postman.ico";
+
 import css from "./techIcon.module.css";
 
 export default function TechIcon({ technologie }) {
@@ -118,6 +122,27 @@ export default function TechIcon({ technologie }) {
               <div className={css.techIconWithName}>
                 <img src={Twitter} alt="" className={css.techIcon}></img>
                 <p className={css.techNameDisplay}></p>
+              </div>
+            );
+          case "Firebase":
+            return (
+              <div className={css.techIconWithName}>
+                <img src={Firebase} alt="" className={css.techIcon}></img>
+                <p className={css.techNameDisplay}>Firebase</p>
+              </div>
+            );
+          case "Cypress":
+            return (
+              <div className={css.techIconWithName}>
+                <img src={Cypress} alt="" className={css.techIcon}></img>
+                <p className={css.techNameDisplay}>Cypress</p>
+              </div>
+            );
+          case "Postman":
+            return (
+              <div className={css.techIconWithName}>
+                <img src={Postman} alt="" className={css.techIcon}></img>
+                <p className={css.techNameDisplay}>Postman</p>
               </div>
             );
 
