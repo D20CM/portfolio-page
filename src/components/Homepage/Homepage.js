@@ -5,6 +5,7 @@ import ProjectsArea from "../ProjectsArea/ProjectsArea";
 import repAppImage from "../../images/Screenshot.png";
 import formAppImage from "../../images/signup-screenshot.png";
 import Contact from "../Contact/Contact";
+import mentorsPage from "../../images/mentorsPage.PNG";
 
 export default function Homepage() {
   return (
@@ -37,6 +38,30 @@ export default function Homepage() {
         Featured Projects
       </h2>
       <FeaturedProject
+        image={mentorsPage}
+        title={"Mentoree"}
+        description={
+          "An app for connecting mentors and mentees - connecting people and enabling growth.  Created in a team of 6 over 4 weeks, this app is built in Next.js, with Firebase authentication.  It utilises Next's built in API routes and a Postgres database, testing with Jest and Cypress, and ChakraUI for component styling."
+        }
+        liveURL={"https://mentoree.netlify.app/"}
+        repoURL={
+          "https://github.com/SchoolOfCode/final-project-repo-404-error-not-found"
+        }
+        technologies={[
+          "Next",
+          "Firebase",
+          "Postgres",
+          "React",
+          "HTML",
+          "CSS",
+          "Javascript",
+          "Git",
+          "Jest",
+          "Cypress",
+          "Postman",
+        ]}
+      />
+      <FeaturedProject
         image={repAppImage}
         title={"Repertoire Tracker"}
         description={
@@ -51,6 +76,7 @@ export default function Homepage() {
           "Express",
           "Postgres",
           "Git",
+          "Postman",
         ]}
       />
       <FeaturedProject
