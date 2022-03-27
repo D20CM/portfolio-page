@@ -34,6 +34,10 @@
   color: var(--portfolio-cream);
 }
 
+.aboutPage a {
+  color: var(--portfolio-yellow);
+}
+
 @media only screen and (max-width: 600px) {
   .aboutPage {
     padding: 4em 2em;

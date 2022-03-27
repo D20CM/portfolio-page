@@ -45,11 +45,49 @@ export default function About() {
           <p>
             That thrill has been with me ever since as I've set about learning
             to code, learning about the web, learning how software works, how
-            things are done. The amount of learning ahead of me is
-            simultaneously daunting and exciting, but the enjoyment I get from
-            "mucking about with things I don't understand" has been an
-            unexpected benefit of the last year - something that will ensure
-            I'll be pursuing it more seriously in the future.
+            things are done. Starting with the frequently recommended{" "}
+            <a
+              href="https://www.freecodecamp.org"
+              alt="Free Code Camp website"
+              target="_blank"
+              rel="noreferrer"
+            >
+              freeCodeCamp{" "}
+            </a>
+            courses, and most recently enrolling on a 16 week immersive
+            fullstack JavaScript development bootcamp at the
+            <a
+              href="https://www.schoolofcode.co.uk/"
+              alt="School Of Code website"
+              target="_blank"
+              rel="noreferrer"
+            >
+              {" "}
+              School Of Code
+            </a>
+            , I've enjoyed every new discovery and aha moment, worked tirelessly
+            through every blocker and bug, and constantly tried to improve the
+            standard of code I produced.
+          </p>
+          <p>
+            The bootcamp in particular was a huge learning experience - my tech
+            skills have certainly improved, but I think the main takeaway for me
+            was the workflows and industry practices that we implemented from
+            day one. All work was 100% collaborative - either pair programming
+            or working in small teams of 4 - 6 people. We constantly followed
+            Agile methodologies and workflows, used version control throughout,
+            and were drilled incessantly on the importance of breaking down the
+            problem, thinking through the solution, and planning things out in
+            detail before writing a single line of code. We also learned about
+            approaches such as test driven development and CI/CD, and looked at
+            devops practices and tools - something I'm extremely keen to explore
+            further.
+          </p>
+          <p>
+            The amount of learning ahead of me is simultaneously daunting and
+            exciting, but the enjoyment I get from learning about technology and
+            development is huge, and I look forward to seeing where this new
+            journey can take me.
           </p>
         </div>
       </section>
