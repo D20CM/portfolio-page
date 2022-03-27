@@ -6,6 +6,7 @@ import repAppImage from "../../images/Screenshot.png";
 import formAppImage from "../../images/signup-screenshot.png";
 import Contact from "../Contact/Contact";
 import mentorsPage from "../../images/mentorsPage.PNG";
+import CVandSocials from "../CVandSocials/CVandSocials";
 
 export default function Homepage() {
   return (
@@ -98,8 +99,13 @@ export default function Homepage() {
         ]}
       />
       <ProjectsArea />
-      <section className={css.contactArea}>
-        <Contact />
+
+      <section className={css.contactArea} id="contact">
+        <h2>Get in touch</h2>
+        <div className={css.contactContainer}>
+          <CVandSocials />
+          <Contact />
+        </div>
       </section>
     </div>
   );

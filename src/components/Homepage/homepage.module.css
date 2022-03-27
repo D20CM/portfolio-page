@@ -72,6 +72,12 @@
   padding: 2em;
 }
 
+.contactContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-evenly;
+}
+
 .contactArea h2 {
   color: var(--portfolio-dark-brown);
 }
@@ -187,6 +193,10 @@
   .homepage .subtitle {
     font-size: 1.6em;
     margin-bottom: 4em;
+  }
+
+  .contactContainer {
+    grid-template-columns: 1fr;
   }
 }
 @media only screen and (max-width: 550px) {

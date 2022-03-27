@@ -1,6 +1,6 @@
 .contactForm {
-  border: 3px solid var(--portfolio-dark-gray);
-  background-color: var(--portfolio-dark-gray);
+  border: 3px solid var(--portfolio-dark-brown);
+  background-color: var(--portfolio-dark-brown);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -9,6 +9,8 @@
   margin: 2em auto;
   padding: 2em;
   align-items: center;
+  text-align: left;
+  color: var(--portfolio-cream);
 }
 
 .nameInput,
@@ -26,10 +28,25 @@
 
 .submit {
   background-color: var(--portfolio-yellow);
-  width: 12em;
-  margin: 2em auto;
-  border-radius: 10px;
-  padding: 1em;
+  color: var(--portfolio-dark-brown);
+  border-radius: 3px;
+  padding: 0.5em 2em;
+  margin: 2em;
+  transition: ease 0.3s all;
+  border: 2px solid var(--portfolio-yellow);
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 3px 8px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.submit:hover {
+  background-color: var(--portfolio-cream);
+  color: black;
+  font-weight: 600;
+  transition: ease 0.3s all;
+  border: 2px solid var(--portfolio-yellow);
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 1px 3px;
 }
 
 .thanks {

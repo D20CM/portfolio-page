@@ -51,7 +51,6 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h2 className={css.contactHeading}>Get In Touch...</h2>
       <form
         ref={form}
         onSubmit={submit}
