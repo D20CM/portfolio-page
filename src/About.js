@@ -52,10 +52,10 @@ export default function About() {
               target="_blank"
               rel="noreferrer"
             >
-              freeCodeCamp{" "}
-            </a>
+              freeCodeCamp
+            </a>{" "}
             courses, and most recently enrolling on a 16 week immersive
-            fullstack JavaScript development bootcamp at the
+            fullstack JavaScript development bootcamp at the{" "}
             <a
               href="https://www.schoolofcode.co.uk/"
               alt="School Of Code website"
@@ -65,9 +65,9 @@ export default function About() {
               {" "}
               School Of Code
             </a>
-            , I've enjoyed every new discovery and aha moment, worked tirelessly
-            through every blocker and bug, and constantly tried to improve the
-            standard of code I produced.
+            , I've enjoyed every new discovery and "a-ha" moment, worked
+            tirelessly through every blocker and bug, and constantly tried to
+            improve the standard of code I produced.
           </p>
           <p>
             The bootcamp in particular was a huge learning experience - my tech
@@ -80,7 +80,7 @@ export default function About() {
             problem, thinking through the solution, and planning things out in
             detail before writing a single line of code. We also learned about
             approaches such as test driven development and CI/CD, and looked at
-            devops practices and tools - something I'm extremely keen to explore
+            DevOps practices and tools - something I'm extremely keen to explore
             further.
           </p>
           <p>
