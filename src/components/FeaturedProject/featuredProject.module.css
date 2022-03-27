@@ -18,6 +18,10 @@
   padding: 2em;
 }
 
+.projectRight p {
+  text-align: justify;
+}
+
 .projectTitle {
   color: var(--portfolio-yellow);
   font-size: 2em;

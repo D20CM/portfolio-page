@@ -17,10 +17,9 @@ export default function Homepage() {
           <p className={css.pitchLandscape}>
             Hi! I'm a full-stack developer with a background in the travel,
             entertainment, and education sectors. I've swapped the life of a
-            travelling musician for a different kind of journey into the world
-            of technology, and I'm excited to see where this journey takes me!
-            Please take a look around at some of the things I've been working
-            on...
+            travelling musician for a new journey into the world of technology,
+            and I'm excited to see where this journey takes me! Please take a
+            look around at some of the things I've been working on...
           </p>
         </div>
       </div>
@@ -41,7 +40,7 @@ export default function Homepage() {
         image={mentorsPage}
         title={"Mentoree"}
         description={
-          "An app for connecting mentors and mentees - connecting people and enabling growth.  Created in a team of 6 over 4 weeks, this app is built in Next.js, with Firebase authentication.  It utilises Next's built in API routes and a Postgres database, testing with Jest and Cypress, and ChakraUI for component styling."
+          "An app for connecting mentors and mentees - connecting people and enabling growth.  Created in a team of 6 over 4 weeks, this app is built in Next.js, with Firebase authentication.  It utilises Next's built in API routes and a Postgres database, testing with Jest and Cypress, and ChakraUI for component styling.  A lot of work went into this project in the planning phase, and we worked through the project using Agile methodolgies and workflows.  You can read more about our process in the Github readme."
         }
         liveURL={"https://mentoree.netlify.app/"}
         repoURL={

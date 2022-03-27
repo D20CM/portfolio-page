@@ -31,14 +31,7 @@ const projects = [
     description:
       "A pomodoro timer built with React class based components, featuring customisable work/break time chunks, reset, start/pause buttons, and an alarm that sounds after the set time period has elapsed.",
   },
-  {
-    title: "Corporate Website",
-    codeLink: "https://github.com/D20CM/corporatewebsite",
-    liveLink: "https://d20cm.github.io/corporatewebsite/index.html",
-    screenshot: "./images/corporate-site.png",
-    description:
-      "A mock website I built to consolidate some of the HTML and CSS concepts I'd been learning.  The site is fully responsive.",
-  },
+
   {
     title: "Heatmap",
     codeLink: "https://github.com/D20CM/FCC-Heatmap",
@@ -46,6 +39,14 @@ const projects = [
     screenshot: "./images/heatmap-screenshot.png",
     description:
       "A heatmap chart made with D3.js, visualising global monthly average land surface temperatures between 1753 and 2015.",
+  },
+  {
+    title: "Corporate Website",
+    codeLink: "https://github.com/D20CM/corporatewebsite",
+    liveLink: "https://d20cm.github.io/corporatewebsite/index.html",
+    screenshot: "./images/corporate-site.png",
+    description:
+      "A mock website I built to consolidate some of the HTML and CSS concepts I'd been learning.  The site is fully responsive.",
   },
 ];
 

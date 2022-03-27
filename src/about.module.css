@@ -32,6 +32,45 @@
   width: 80%;
   margin: 1em auto;
   color: var(--portfolio-cream);
+  white-space: pre-line;
+}
+
+/* .aboutPage a {
+  color: var(--portfolio-yellow);
+  text-decoration: none;
+}
+
+.aboutPage a:visited {
+  color: var(--portfolio-light-gray);
+} */
+
+.aboutPage a {
+  color: var(--portfolio-yellow);
+  text-decoration: none;
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  display: inline-block;
+}
+
+.aboutPage a:after {
+  display: block;
+  content: "";
+  width: 0px;
+  height: 2px;
+  position: relative;
+  background-color: var(--portfolio-yellow);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  opacity: 0.9;
+}
+
+.aboutPage a:hover {
+  color: var(--portfolio-yellow);
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  text-shadow: 1px 1px 1px rgba(17, 17, 17, 0.788);
+}
+
+.aboutPage a:hover:after {
+  width: 100%;
+  box-shadow: 1px 1px 1px rgba(17, 17, 17, 0.788);
 }
 
 @media only screen and (max-width: 600px) {
