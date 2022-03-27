@@ -1,0 +1,93 @@
+.CVandSocials {
+  border: 3px solid var(--portfolio-dark-brown);
+  background-color: var(--portfolio-dark-brown);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  max-width: 50em;
+  margin: 2em auto;
+  padding: 2em;
+  align-items: flex-start;
+  color: var(--portfolio-cream);
+  text-align: left;
+}
+
+.CVandSocials h4 {
+  text-align: left;
+  margin-bottom: 0.2em;
+}
+
+.CVandSocials p {
+  margin: 0;
+}
+
+.CVandSocials button {
+  background-color: var(--portfolio-yellow);
+  color: var(--portfolio-dark-brown);
+  border-radius: 3px;
+  padding: 0.5em 1em;
+  margin: 0.3em 0;
+  transition: ease 0.3s all;
+  border: 2px solid var(--portfolio-yellow);
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 3px 8px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.CVandSocials button:hover {
+  background-color: var(--portfolio-cream);
+  color: black;
+  font-weight: 600;
+  transition: ease 0.3s all;
+  border: 2px solid var(--portfolio-yellow);
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 1px 3px;
+}
+
+.socialLinks {
+  display: flex;
+  margin: 0;
+}
+
+.CVandSocials .email {
+  color: var(--portfolio-yellow);
+  text-decoration: none;
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  display: inline-block;
+}
+
+.CVandSocials .email:after {
+  display: block;
+  content: "";
+  width: 0px;
+  height: 2px;
+  position: relative;
+  background-color: var(--portfolio-yellow);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  opacity: 0.9;
+}
+
+.CVandSocials .email:hover {
+  color: var(--portfolio-yellow);
+  transition: all 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+  text-shadow: 1px 1px 1px rgba(17, 17, 17, 0.788);
+}
+
+.CVandSocials .email:hover:after {
+  width: 100%;
+  box-shadow: 1px 1px 1px rgba(17, 17, 17, 0.788);
+}
+
+.socialLinks a {
+  margin: 0;
+  padding: 0;
+  width: 5em;
+  height: 5em;
+  transition: ease 0.3s all;
+}
+
+.socialLinks a:hover {
+  transform: scale(1.1);
+  transition: ease 0.3s all;
+}
