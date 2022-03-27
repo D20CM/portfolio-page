@@ -11,6 +11,23 @@
   align-items: center;
   text-align: left;
   color: var(--portfolio-cream);
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 3px 8px;
+}
+
+.contactForm h3 {
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.contactForm label {
+  align-self: flex-start;
+  margin-left: 1em;
+  color: var(--portfolio-yellow);
+}
+
+.contactForm textArea {
+  font-family: inherit;
 }
 
 .nameInput,

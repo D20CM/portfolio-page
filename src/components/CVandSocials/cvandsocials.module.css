@@ -11,6 +11,7 @@
   align-items: flex-start;
   color: var(--portfolio-cream);
   text-align: left;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 3px 8px;
 }
 
 .CVandSocials h4 {
@@ -47,7 +48,8 @@
 
 .socialLinks {
   display: flex;
-  margin: 0;
+  margin: 0.3em 0;
+  padding: 0;
 }
 
 .CVandSocials .email {
@@ -80,14 +82,16 @@
 }
 
 .socialLinks a {
-  margin: 0;
-  padding: 0;
-  width: 5em;
-  height: 5em;
   transition: ease 0.3s all;
 }
 
 .socialLinks a:hover {
   transform: scale(1.1);
   transition: ease 0.3s all;
+}
+
+@media screen and (max-width: 700px) {
+  .socialLinks a {
+    font-size: 1.6em;
+  }
 }
