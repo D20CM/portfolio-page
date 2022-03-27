@@ -50,13 +50,14 @@ const Contact = () => {
   //   };
 
   return (
-    <section id="contact">
+    <section>
       <form
         ref={form}
         onSubmit={submit}
         id="contact-form"
         className={css.contactForm}
       >
+        <h3>Send a message</h3>
         <label>Name</label>
         <input
           type="text"
