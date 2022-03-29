@@ -29,6 +29,35 @@
   }
 }
 
+::-webkit-scrollbar {
+  width: auto;
+  background-color: var(--portfolio-dark-brown);
+}
+
+::-webkit-scrollbar-track {
+  background: var(--portfolio-dark-brown);
+  border-radius: 100vw;
+  margin-block: 0.2em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--portfolio-yellow);
+  border-radius: 100vw;
+  border: 4px solid var(--portfolio-dark-brown);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--portfolio-cream);
+}
+
+@supports (
+  scrollbar-color: var(--portfolio-dark-gray) var(--portfolio-yellow)
+) {
+  * {
+    scrollbar-color: var(--portfolio-yellow) var(--portfolio-dark-brown);
+    scrollbar-width: thin;
+  }
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",

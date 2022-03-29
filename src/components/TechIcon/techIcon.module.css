@@ -10,10 +10,11 @@
   margin: 0.5em;
 }
 
-.techNameDisplay {
+.techIconWithName .techNameDisplay {
   margin-top: 0;
   font-size: 0.8em;
   color: var(--portfolio-yellow);
+  text-align: center;
 }
 
 @media only screen and (max-width: 600px) {
