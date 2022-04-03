@@ -10,7 +10,7 @@ const projects = [
   {
     title: "Drum Machine",
     codeLink: "https://github.com/D20CM/drummachine",
-    liveLink: "https://codepen.io/D20CM/pen/ExyjMGP",
+    liveLink: "https://drum-machine-d20cm.netlify.app/",
     screenshot: "../images/drum-machine.png",
     description:
       "A drum machine / sample pad app built with React class-based components.  This features a volume slider, bank switch, and sample name display.  Sounds can be triggered from the keyboard or by clicking on the corresponding pad on screen.",
@@ -30,23 +30,6 @@ const projects = [
     screenshot: "../images/pomodoro-timer.png",
     description:
       "A pomodoro timer built with React class based components, featuring customisable work/break time chunks, reset, start/pause buttons, and an alarm that sounds after the set time period has elapsed.",
-  },
-
-  {
-    title: "Heatmap",
-    codeLink: "https://github.com/D20CM/FCC-Heatmap",
-    liveLink: "https://d20cm.github.io/FCC-Heatmap/",
-    screenshot: "./images/heatmap-screenshot.png",
-    description:
-      "A heatmap chart made with D3.js, visualising global monthly average land surface temperatures between 1753 and 2015.",
-  },
-  {
-    title: "Corporate Website",
-    codeLink: "https://github.com/D20CM/corporatewebsite",
-    liveLink: "https://d20cm.github.io/corporatewebsite/index.html",
-    screenshot: "./images/corporate-site.png",
-    description:
-      "A mock website I built to consolidate some of the HTML and CSS concepts I'd been learning.  The site is fully responsive.",
   },
 ];
 
