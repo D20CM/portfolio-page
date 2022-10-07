@@ -4,6 +4,7 @@ import FeaturedProject from "../FeaturedProject/FeaturedProject";
 import ProjectsArea from "../ProjectsArea/ProjectsArea";
 import repAppImage from "../../images/Screenshot.png";
 import formAppImage from "../../images/signup-screenshot.png";
+import countdownImage from "../../images/screenshot-with-definitions.png";
 import Contact from "../Contact/Contact";
 import mentorsPage from "../../images/mentorsPage.PNG";
 import CVandSocials from "../CVandSocials/CVandSocials";
@@ -85,6 +86,16 @@ export default function Homepage() {
         liveURL={"https://pedantic-bell-0aa1ac.netlify.app/"}
         repoURL={"https://github.com/D20CM/project-week-backend"}
         technologies={["React", "Postgres", "Express", "Node", "Git"]}
+      />
+      <FeaturedProject
+        image={countdownImage}
+        title={"Countdown Solver"}
+        description={
+          "A companion for watching the TV show 'Countdown' built with React - it suggests the longest words that can be built with the inputted letters. Definitions are provided by the Mirriam-Webster dictionary API."
+        }
+        liveURL={"https://countdown-solver.netlify.app/"}
+        repoURL={"https://github.com/D20CM/countdown-solver"}
+        technologies={["React", "CSS", "Git"]}
       />
       <ProjectsArea />
 
