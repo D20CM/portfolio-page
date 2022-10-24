@@ -65,7 +65,7 @@ export default function Homepage() {
         description={
           "A system to track which pieces of a musician's repertoire have been performed over a given period of time.  Created with Express, and utilising a Postgres database, the system is accessed from a vanilla JavaScript front-end which takes in user input and constructs the appropriate fetch requests from that inputted data.  Visual design aims for a high-contrast dark mode aesthetic appropriate for live use on a dark stage. "
         }
-        liveURL={"https://repertoire-tracker.herokuapp.com/"}
+        liveURL={"https://performed-repertoire-tracker.onrender.com/"}
         repoURL={"https://github.com/D20CM/performed-repertoire-tracker"}
         technologies={[
           "HTML",
